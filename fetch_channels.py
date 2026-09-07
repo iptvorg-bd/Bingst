@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 
-url = "https://api.tivihub.app/api/channels"
+url = "https://api.tivihub.app/matches.m3u"
 
 headers = {
     'accept': 'application/json',
