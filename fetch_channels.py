@@ -1,6 +1,6 @@
 import requests
 import json
-import os
+import sys
 
 url = "https://api.tivihub.app/live-streams"
 
@@ -18,16 +18,20 @@ def main():
         print("API থেকে ডেটা ফেচ করা হচ্ছে...")
         response = requests.get(url, headers=headers, timeout=20)
         
+        print(f"Status Code: {response.status_code}")
+        
         if response.status_code != 200:
-            print(f"ব্যর্থ হয়েছে! Status Code: {response.status_code}")
-            return
+            print("সার্ভার রেসপন্স:")
+            print(response.text)
+            # ব্যর্থ হলে গিটহাব অ্যাকশনকে ফেইল করাবে যাতে লগ দেখা যায়
+            sys.exit(1)
 
         data = response.json()
 
         # ১. JSON ফাইল সংরক্ষণ
         with open("channels.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("channels.json ফাইল আপডেট হয়েছে।")
+        print("channels.json ফাইল তৈরি হয়েছে।")
 
         # ২. M3U প্লেলিস্ট তৈরি
         channels = data.get('data', data) if isinstance(data, dict) else data
@@ -49,10 +53,11 @@ def main():
         with open("playlist.m3u", "w", encoding="utf-8") as f:
             f.writelines(m3u_lines)
             
-        print(f"সফলভাবে {count}টি চ্যানেল সহ playlist.m3u ফাইল তৈরি হয়েছে!")
+        print(f"সফলভাবে {count}টি চ্যানেল সহ playlist.m3u তৈরি হয়েছে!")
 
     except Exception as e:
         print(f"ত্রুটি: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
