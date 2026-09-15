@@ -38,8 +38,8 @@ jobs:
           MASTER = Path('IPTV Playlist.m3u')
           REPORT = Path('reports/auto-update.md')
           SOURCE_URLS = [
-              'https://raw.githubusercontent.com/Romancecity/pl_vip/refs/heads/main/playlist_vip.m3u',
-              '#',
+              'https://raw.githubusercontent.com/ahmedstore75/Bdixplaylist/main/playlist.m3u',
+              'https://raw.githubusercontent.com/ahmedstore75/Iptvbdlive/main/mixiptvchannel.m3u',
           ]
           GROUPS = [
               'Bangladesh', 'Indian Bangla', 'Indian Movies', 'Indian Music',
