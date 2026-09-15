@@ -1,46 +1,233 @@
-name: Auto Update Playlist and JSON
+name: IPTV Auto Update (reviewed)
 
 on:
+  workflow_dispatch:
   schedule:
-    # প্রতি ৬ ঘণ্টা পর পর রান হবে (UTC সময় অনুযায়ী)
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # ম্যানুয়ালি রান করার অপশন
+    - cron: '30 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-playlist-and-epg
+  cancel-in-progress: false
 
 jobs:
-  update-files:
+  update:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write # ফাইলে পুশ করার পারমিশন
-
+    timeout-minutes: 15
+    env:
+      AUTO_COMMIT: 'true'
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
         with:
-          python-version: '3.11'
+          fetch-depth: 1
 
-      - name: Install dependencies
+      - name: Validate and build playlist
+        shell: bash
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+          import json, re, urllib.request
+          from datetime import datetime, timezone
+          from collections import defaultdict
+          from copy import deepcopy
+          from pathlib import Path
 
-      - name: Run Fetch Script
-        run: |
-          python fetch_channels.py
+          MASTER = Path('IPTV Playlist.m3u')
+          REPORT = Path('reports/auto-update.md')
+          SOURCE_URLS = [
+              'https://raw.githubusercontent.com/Romancecity/pl_vip/main/playlist_vip.m3u',
+              '#',
+          ]
+          GROUPS = [
+              'Bangladesh', 'Indian Bangla', 'Indian Movies', 'Indian Music',
+              'Indian Entertainment', 'International Movies', 'International Music',
+              'Documentary & Wildlife', 'Kids', 'Religious', 'Sports',
+          ]
+          # Deliberately conservative: only established/reputed channels may enter
+          # these focused groups. Expand these sets only after manual review.
+          MAJOR = {
+              'sports': {'espn', 'star sports', 'sony ten', 'sony liv', 't sports',
+                         'bein sports', 'sky sports', 'eurosport', 'ptv sports',
+                         'ten cricket', 'fox sports', 'nba tv', 'nfl network',
+                         'tsn', 'tnt sports', 'premier sports'},
+              'indian entertainment': {'star plus', 'sony entertainment television',
+                         'colors', 'zee tv', 'sony sab', '&tv', 'dangal',
+                         'and pictures', 'sony pal', 'colors rishtey'},
+              'documentary & wildlife': {'discovery', 'national geographic',
+                         'nat geo wild', 'animal planet', 'history', 'bbc earth',
+                         'travel xp', 'docubay', 'smithsonian'},
+              'kids': {'cartoon network', 'nick', 'nick jr', 'sonic', 'disney',
+                       'disney junior', 'disney xd', 'hungama', 'pogo',
+                       'discovery kids', 'pbs kids', 'boomerang'},
+          }
+          BD = {'ananda tv','asian tv','atn bangla','atn news','banglavision',
+                'bijoy tv','boishakhi tv','btv','channel i','channel 24',
+                'dbc news','deepto tv','desh tv','doyel tv','duronto tv',
+                'ekattor tv','ekhon tv','ekushey tv','gazi tv','jamuna tv',
+                'maasranga tv','mohona tv','my tv','nagorik tv','news 24',
+                'ntv','rtv','somoy tv','t sports','independent tv'}
+          IN_BANGLA = {'zee bangla','star jalsha','jalsha movies','sony aath',
+                       'colors bangla','sun bangla','sangeet bangla','tv9 bangla'}
+          FOREIGN_NEWS = re.compile(r'\b(abp|aaj tak|bbc|cnbc|cnn|dd news|dw|ndtv|news18|republic|sky news|times now|trt world|tv9|wion|zee news)\b', re.I)
+          BLOCKED = ('adult', 'porn', 'xxx', 'proxy', 'filex.me', 'vercel.app')
 
-      - name: Commit and Push Changes
+          # Stream policy applies before BOTH primary and backup admission.
+          # Opaque CDN path IDs alone are not proof of encryption or masking.
+          def blocked_stream_reason(entry):
+              from urllib.parse import urlsplit, parse_qsl, unquote
+              url = entry.get('url', '').strip()
+              try:
+                  parsed = urlsplit(url)
+                  host = (parsed.hostname or '').lower().rstrip('.')
+                  if parsed.scheme.lower() not in {'http', 'https'} or not host:
+                      return 'invalid or unsupported stream URL'
+                  if parsed.username or parsed.password:
+                      return 'credential-wrapped URL'
+                  blocked_hosts = ('workers.dev', 'pages.dev', 'vercel.app', 'netlify.app',
+                                   'filex.me', 'tinyurl.com', 'bit.ly', 't.co', 'shorturl.at')
+                  if any(host == h or host.endswith('.' + h) for h in blocked_hosts):
+                      return 'proxy/masking or URL-shortener host'
+                  if any('proxy' in label for label in host.split('.')):
+                      return 'proxy hostname'
+                  path = unquote(parsed.path).lower()
+                  if re.search(r'(?:^|/)(?:proxy|redirect|decrypt|encrypt|decode|encode)(?:[./_-]|$)', path):
+                      return 'proxy/encoded wrapper path'
+                  if re.search(r'\.(?:php|asp|aspx)(?:/|$)', path):
+                      return 'dynamic stream wrapper'
+                  if any(k.lower() in {'url','uri','redirect','redirect_url','target','destination','encoded','encrypted','payload','play_token','license','license_key','drm'}
+                         for k, v in parse_qsl(parsed.query, keep_blank_values=True)):
+                      return 'wrapped destination or access/license parameter'
+                  extras = '\n'.join(entry.get('extras', []))
+                  if re.search(r'(?i)(?:license_type|license_key|widevine|playready|clearkey|drm)', extras):
+                      return 'explicit DRM/license configuration'
+              except ValueError:
+                  return 'malformed URL'
+              return ''
+
+          def attrs(s):
+              # Strictly parse quoted metadata; malformed source lines are not
+              # allowed to become candidates.
+              return dict(re.findall(r'''([\w-]+)="([^"]*)"''', s))
+          def parse(text):
+              out=[]; pending=None; extras=[]
+              for line in text.splitlines():
+                  line=line.strip()
+                  if line.startswith('#EXTINF:'):
+                      if pending: out.append(pending)
+                      left,name=line.rsplit(',',1)
+                      pending={'attrs':attrs(left), 'name':name.strip(), 'extras':[]}
+                  elif pending and line and not line.startswith('#'):
+                      pending['url']=line; out.append(pending); pending=None
+                  elif pending and line.startswith('#'):
+                      pending['extras'].append(line)
+              if pending and pending.get('url'): out.append(pending)
+              return out
+          def norm(s):
+              s=re.sub(r'\s*\[(?:backup\s*\d+|primary)\]\s*$', '', s, flags=re.I)
+              return re.sub(r'[^a-z0-9]+',' ',s.casefold()).strip()
+          def base(s): return re.sub(r'\s*\[backup\s*\d+\]\s*$', '', s, flags=re.I).strip()
+          def is_backup(s): return bool(re.search(r'\[backup\s*\d+\]$', s, re.I))
+          def classify(name, supplied=''):
+              n=norm(name); g=norm(supplied)
+              if any(x in n for x in BLOCKED): return None
+              if FOREIGN_NEWS.search(n) and n not in BD: return None
+              if n in BD or n.endswith(' bangla tv') and n in BD: return 'Bangladesh'
+              if n in IN_BANGLA: return 'Indian Bangla'
+              for group, tokens in MAJOR.items():
+                  if any(t in n for t in tokens): return group.title() if group != 'kids' else 'Kids'
+              # Source group is accepted only after the name passes policy.
+              if g in {norm(x) for x in GROUPS} and g not in {'adult','news'}:
+                  return next(x for x in GROUPS if norm(x)==g)
+              return None
+          def parse_sources():
+              allc=[]
+              for source in SOURCE_URLS:
+                  try:
+                      with urllib.request.urlopen(source, timeout=20) as r:
+                          allc += parse(r.read().decode('utf-8','replace'))
+                  except Exception as e:
+                      print(f'source skipped: {source}: {e}')
+              return allc
+          def serialize(e, number):
+              a=deepcopy(e['attrs']); a['tvg-name']=e['name']; a['group-title']=e['group']
+              a['tvg-chno']=str(number)
+              if e.get('logo'): a['tvg-logo']=e['logo']
+              a.setdefault('tvg-id', 'local.'+re.sub(r'[^a-z0-9]+','-',norm(e['name'])).strip('-'))
+              order=['tvg-id','tvg-name','tvg-logo','tvg-chno','group-title']
+              rest=[k for k in a if k not in order]
+              tail=' '.join(f'{k}="{a[k]}"' for k in order+rest if a.get(k,'')!='')
+              return f'#EXTINF:-1 {tail},{e["name"]}'
+
+          current_header=next((x for x in MASTER.read_text(encoding='utf-8-sig').splitlines() if x.startswith('#EXTM3U')), '#EXTM3U')
+          existing=parse(MASTER.read_text(encoding='utf-8-sig'))
+          canonical=defaultdict(list); used=set(); corrected=0; duplicates=0
+          for e in existing:
+              if not e.get('url') or e['url'] in used:
+                  duplicates += 1; continue
+              used.add(e['url']); e['canonical']=base(e['name']); e['group']=classify(e['canonical'],e['attrs'].get('group-title','')) or e['attrs'].get('group-title','Bangladesh')
+              canonical[norm(e['canonical'])].append(e)
+          # Existing entries are authoritative for membership. New source entries
+          # can only add a backup to an existing canonical channel or a channel
+          # explicitly admitted by classify(); fuzzy matching is never used.
+          additions=0; rejected=0; added_backups=[]; added_channels=[]; rejected_names=[]
+          blocked_imports=[]
+          for src in parse_sources():
+              url=src.get('url','').strip(); name=base(src.get('name',''))
+              if not url or url in used: continue
+              reason=blocked_stream_reason(src)
+              if reason:
+                  rejected+=1; blocked_imports.append((name,url,reason)); continue
+              key=norm(name); target=canonical.get(key,[])
+              if target:
+                  primary=target[0]; group=primary['group']; limit=4 if group=='Bangladesh' else 2
+                  if len(target)-1 >= limit: continue
+                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=deepcopy(src.get('extras',[])); target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],group,url)); continue
+              group=classify(name,src.get('attrs',{}).get('group-title',''))
+              if not group or not src.get('attrs',{}).get('tvg-logo'): rejected+=1; rejected_names.append((name,src.get('attrs',{}).get('group-title',''),url)); continue
+              e={'attrs':deepcopy(src['attrs']), 'name':name, 'canonical':name, 'url':url, 'extras':deepcopy(src.get('extras',[])), 'group':group}
+              canonical[key].append(e); used.add(url); additions+=1; added_channels.append((name,group,url))
+          final=[e for bucket in canonical.values() for e in bucket]
+          rank={g:i for i,g in enumerate(GROUPS)}
+          final.sort(key=lambda e:(rank.get(e['group'],999),norm(e['canonical']),0 if not is_backup(e['name']) else int(re.search(r'\d+',e['name']).group()),norm(e['name'])))
+          output=[current_header,'#PLAYLIST-STUDIO-NAME:"SAEID RAHMAN - IPTV Playlist"','#PLAYLIST-STUDIO-CATEGORIES:'+json.dumps(GROUPS)]
+          for i,e in enumerate(final,1): output += [serialize(e,i),*e.get('extras',[]),e['url']]
+          MASTER.write_text('\ufeff'+'\n'.join(output)+'\n',encoding='utf-8')
+          REPORT.parent.mkdir(exist_ok=True)
+          lines=[
+              '# IPTV Auto Update','',
+              f'Generated: **{datetime.now(timezone.utc).isoformat()}**','',
+              '## Summary','',
+              f'- Final playlist entries: **{len(final)}**',
+              f'- New primary channels: **{len(added_channels)}**',
+              f'- New backup streams: **{len(added_backups)}**',
+              f'- Rejected new candidates: **{rejected}**',
+              f'- Duplicate URLs removed: **{duplicates}**','',
+              '## Category totals','',
+          ]
+          totals=defaultdict(int)
+          for e in final: totals[e['group']]+=1
+          lines += [f'- **{g}**: {totals[g]}' for g in GROUPS]
+          lines += ['', '## New primary channels', '']
+          lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_channels] or ['- None']
+          lines += ['', '## New backup streams', '']
+          lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_backups] or ['- None']
+          lines += ['', '## Blocked stream imports', '']
+          lines += [f'- **{n}** — {reason} — {u}' for n,u,reason in blocked_imports] or ['- None']
+          lines += ['', '## Rejected candidates', '']
+          lines += [f'- **{n}** — source group `{g}` — {u}' for n,g,u in rejected_names] or ['- None']
+          lines += ['', '## Policy', '', '- Existing membership is authoritative.', '- Candidate identity uses exact normalized base name only.', '- New candidates require an approved category and logo.', '- Proxy/masking hosts, wrapper URLs and explicit DRM settings are rejected before primary or backup admission.', '- Existing entries are preserved; URL checks do not establish playback availability or detect every concealed proxy.']
+          REPORT.write_text('\n'.join(lines)+'\n', encoding='utf-8')
+          PY
+
+      - name: Commit only when explicitly enabled
+        if: env.AUTO_COMMIT == 'true'
+        shell: bash
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # ফাইল তৈরি হয়েছে কিনা চেক করে add করবে
-          if [ -f "channels.json" ] || [ -f "playlist.m3u" ]; then
-            git add channels.json playlist.m3u
-            git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist and JSON [skip ci]" && git push)
-          else
-            echo "কোনো ফাইল তৈরি হয়নি!"
-            exit 1
-          fi
+          set -euo pipefail
+          git config user.name 'IPTV Update Bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add 'IPTV Playlist.m3u' reports/auto-update.md
+          git diff --cached --quiet || (git commit -m 'bot: auto-update IPTV playlist' && git push)
