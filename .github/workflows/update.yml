@@ -38,7 +38,7 @@ jobs:
           MASTER = Path('IPTV Playlist.m3u')
           REPORT = Path('reports/auto-update.md')
           SOURCE_URLS = [
-              'https://raw.githubusercontent.com/Romancecity/pl_vip/main/playlist_vip.m3u',
+              'https://raw.githubusercontent.com/Romancecity/pl_vip/refs/heads/main/playlist_vip.m3u',
               '#',
           ]
           GROUPS = [
