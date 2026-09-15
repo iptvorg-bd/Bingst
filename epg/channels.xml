@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Verified catalogue mappings, NOT permission to obtain/publish schedules.
+     SD feeds selected as pilot candidates. Confirm feed identity before activation.
+     xmltv_id values intentionally match this repository's existing M3U IDs. -->
+<channels>
+  <channel site="dishtv.in" site_id="117853" lang="en" xmltv_id="ZeeBangla.in">Zee Bangla</channel>
+  <channel site="dishtv.in" site_id="143818" lang="en" xmltv_id="StarJalsha.in">Star Jalsha</channel>
+  <channel site="dishtv.in" site_id="143218" lang="en" xmltv_id="JalshaMovies.in">Jalsha Movies</channel>
+  <channel site="dishtv.in" site_id="143871" lang="en" xmltv_id="SunBangla.in">Sun Bangla</channel>
+</channels>
