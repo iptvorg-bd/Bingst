@@ -1,6 +1,6 @@
 # IPTV Auto Update
 
-Generated: **2026-09-20T07:52:04.650168+00:00**
+Generated: **2026-09-21T08:06:57.394092+00:00**
 
 ## Summary
 
@@ -702,7 +702,6 @@ Generated: **2026-09-20T07:52:04.650168+00:00**
 - **Televisa Telenovelas** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/televisa-telenovelas-1/index.m3u8
 - **SportOutdoor.tv** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sportoutdoortv-1/index.m3u8
 - **CGtv** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/cgtv-1/index.m3u8
-- **Live Cricket** — proxy/masking or URL-shortener host — https://iptvlive-beta.vercel.app/asports/index.m3u8
 - **Jamuna TV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/jamuna-tv/index.m3u8
 - **DBC News HD** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/dbc-news/index.m3u8
 - **NTV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/ntv/index.m3u8
@@ -734,6 +733,7 @@ Generated: **2026-09-20T07:52:04.650168+00:00**
 
 ## Rejected candidates
 
+- **Live Cricket** — source group `` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
 - **G TV** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 - **NRB HD** — source group `Bangla` — https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
 - **Probashi** — source group `Bangla` — http://158.69.24.53:8080/probashi_tv/index.m3u8
