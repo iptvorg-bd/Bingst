@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-09-21T08:06:57.394092+00:00**
+Generated: **2026-09-22T07:51:41.940745+00:00**
 
 ## Summary
 
 - Final playlist entries: **762**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1148**
+- Rejected new candidates: **1150**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -50,7 +50,8 @@ Generated: **2026-09-21T08:06:57.394092+00:00**
 - **Deepto TV HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/deepto-tv-hd-1/index.m3u8
 - **Channel 9 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/channel-9-hd-1/index.m3u8
 - **Channel I HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/channel-i-hd-1/index.m3u8
-- **BTV Shangshad** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-newshttpapp24jagobdcombdc3vydmvyx8rpbeu9mi8xny8ymfdeehgcfrgzq6ntagdeoaefzbf92ywxizto0u0ezn1izmyfvcedsefedekinkvn3ptomdfsewrtaw51aiphnpti2starnewsbdstreamtracks-v1a1monom3u8-1/index.m3u8
+- **Star News** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-news-1/index.m3u8
+- **BTV Shangshad** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/btv-shangshad-1/index.m3u8
 - **SOMOY TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/somoy-tv-1/index.m3u8
 - **DURONTO TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/duronto-tv-1/index.m3u8
 - **BIJOY TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bijoy-tv-1/index.m3u8
@@ -97,7 +98,7 @@ Generated: **2026-09-21T08:06:57.394092+00:00**
 - **Independent** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/independent-1/index.m3u8
 - **Jamuna** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/jamuna-1/index.m3u8
 - **Channel 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/channel-1-2/index.m3u8
-- **Star News** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-news-1/index.m3u8
+- **Star News** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-news-2/index.m3u8
 - **Rajdhani** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/rajdhani-1/index.m3u8
 - **EP TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ep-tv-1/index.m3u8
 - **News 21 Bangla TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/news-21-bangla-tv-1/index.m3u8
@@ -734,6 +735,7 @@ Generated: **2026-09-21T08:06:57.394092+00:00**
 ## Rejected candidates
 
 - **Live Cricket** — source group `` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
+- **Star News** — source group `News` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/tracks-v1a1/mono.m3u8
 - **G TV** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 - **NRB HD** — source group `Bangla` — https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
 - **Probashi** — source group `Bangla` — http://158.69.24.53:8080/probashi_tv/index.m3u8
