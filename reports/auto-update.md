@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-09-22T07:51:41.940745+00:00**
+Generated: **2026-09-23T07:53:38.815671+00:00**
 
 ## Summary
 
 - Final playlist entries: **762**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1150**
+- Rejected new candidates: **1149**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -718,7 +718,6 @@ Generated: **2026-09-22T07:51:41.940745+00:00**
 - **ATN BANGLA** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8
 - **Mohona TV** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mohona_tv&format=.m3u8
 - **Thikana** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=thikana&format=.m3u
-- **PTV Sports** — proxy/encoded wrapper path — https://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8
 - **Willow Sports** — dynamic stream wrapper — https://mflixott.com/tv/dd/live.php/346.m3u8
 - **Willow Sports 2** — dynamic stream wrapper — https://mflixott.com/tv/dd/live.php/598.m3u8
 - **PTV Sports** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8
