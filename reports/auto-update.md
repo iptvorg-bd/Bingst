@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-09-27T08:26:49.022680+00:00**
+Generated: **2026-09-28T08:51:51.789861+00:00**
 
 ## Summary
 
-- Final playlist entries: **762**
-- New primary channels: **0**
-- New backup streams: **0**
-- Rejected new candidates: **1149**
+- Final playlist entries: **766**
+- New primary channels: **2**
+- New backup streams: **2**
+- Rejected new candidates: **1147**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -22,15 +22,17 @@ Generated: **2026-09-27T08:26:49.022680+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 139
+- **Sports**: 143
 
 ## New primary channels
 
-- None
+- **Willow Sports** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8
+- **Willow Sports 2** — `Sports` — https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8
 
 ## New backup streams
 
-- None
+- **Ten Cricket [Backup 2]** — `Sports` — https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8
+- **TUDN [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/tapmad123321/master.m3u8
 
 ## Blocked stream imports
 
@@ -718,8 +720,6 @@ Generated: **2026-09-27T08:26:49.022680+00:00**
 - **ATN BANGLA** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8
 - **Mohona TV** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mohona_tv&format=.m3u8
 - **Thikana** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=thikana&format=.m3u
-- **Willow Sports** — dynamic stream wrapper — https://mflixott.com/tv/dd/live.php/346.m3u8
-- **Willow Sports 2** — dynamic stream wrapper — https://mflixott.com/tv/dd/live.php/598.m3u8
 - **PTV Sports** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8
 - **TSN 1** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8
 - **TSN 2** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8
