@@ -1,11 +1,11 @@
 # IPTV Auto Update
 
-Generated: **2026-09-28T08:51:51.789861+00:00**
+Generated: **2026-09-29T08:50:54.393660+00:00**
 
 ## Summary
 
-- Final playlist entries: **766**
-- New primary channels: **2**
+- Final playlist entries: **768**
+- New primary channels: **0**
 - New backup streams: **2**
 - Rejected new candidates: **1147**
 - Duplicate URLs removed: **0**
@@ -22,17 +22,16 @@ Generated: **2026-09-28T08:51:51.789861+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 143
+- **Sports**: 145
 
 ## New primary channels
 
-- **Willow Sports** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8
-- **Willow Sports 2** — `Sports` — https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8
+- None
 
 ## New backup streams
 
-- **Ten Cricket [Backup 2]** — `Sports` — https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8
-- **TUDN [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/tapmad123321/master.m3u8
+- **Star Sports SL 1 [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8
+- **Star Sports SL 2 [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8
 
 ## Blocked stream imports
 
