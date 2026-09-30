@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-09-29T08:50:54.393660+00:00**
+Generated: **2026-09-30T08:51:13.966697+00:00**
 
 ## Summary
 
-- Final playlist entries: **768**
-- New primary channels: **0**
-- New backup streams: **2**
-- Rejected new candidates: **1147**
+- Final playlist entries: **772**
+- New primary channels: **4**
+- New backup streams: **0**
+- Rejected new candidates: **1152**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -22,16 +22,18 @@ Generated: **2026-09-29T08:50:54.393660+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 145
+- **Sports**: 149
 
 ## New primary channels
 
-- None
+- **Tapmad 1** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
+- **Tapmad 5** — `Sports` — https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
+- **Tapmad 6** — `Sports` — https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8
+- **Tapmad 7** — `Sports` — https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8
 
 ## New backup streams
 
-- **Star Sports SL 1 [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8
-- **Star Sports SL 2 [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8
+- None
 
 ## Blocked stream imports
 
@@ -192,10 +194,19 @@ Generated: **2026-09-29T08:50:54.393660+00:00**
 - **Sangeet Bhojpuri** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bhojpuri-1/index.m3u8
 - **T Sports HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/t-sports-hd-1/index.m3u8
 - **PTV Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ptv-sports-1/index.m3u8
+- **Tapmad 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-1-1/index.m3u8
+- **Tapmad 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-2-1/index.m3u8
+- **Tapmad 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-3-1/index.m3u8
+- **Tapmad 4** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-4-1/index.m3u8
+- **Tapmad 5** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-5-1/index.m3u8
+- **Tapmad 6** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-6-1/index.m3u8
+- **Tapmad 7** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-7-1/index.m3u8
+- **Tapmad 8** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-8-1/index.m3u8
+- **Tapmad 9** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-9-1/index.m3u8
+- **Tapmad 10** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-10-1/index.m3u8
 - **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-1/index.m3u8
 - **Willow Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-1/index.m3u8
 - **Willow Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-2-1/index.m3u8
-- **TUDN** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tudn-1/index.m3u8
 - **Star Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-1-1/index.m3u8
 - **Star Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-2-1/index.m3u8
 - **Star Sports SL 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-1-1/index.m3u8
@@ -205,7 +216,6 @@ Generated: **2026-09-29T08:50:54.393660+00:00**
 - **Sony Ten 5** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-5-1/index.m3u8
 - **Bein Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-1/index.m3u8
-- **Mundial** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/mundial-1/index.m3u8
 - **Animal Planet HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/animal-planet-hd-1/index.m3u8
 - **Discovery HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/discovery-hd-1/index.m3u8
 - **Discover Pakistan** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/discover-pakistan-1/index.m3u8
@@ -221,8 +231,6 @@ Generated: **2026-09-29T08:50:54.393660+00:00**
 - **India Today** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/india-today-1/index.m3u8
 - **OAN** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/oan-1/index.m3u8
 - **Iran Press** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/iran-press-1/index.m3u8
-- **T Sports HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/t-sports-hd-2/index.m3u8
-- **PTV Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ptv-sports-2/index.m3u8
 - **TSN 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-1-1/index.m3u8
 - **TSN 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-2-1/index.m3u8
 - **TSN 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-3-1/index.m3u8
@@ -719,7 +727,6 @@ Generated: **2026-09-29T08:50:54.393660+00:00**
 - **ATN BANGLA** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8
 - **Mohona TV** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mohona_tv&format=.m3u8
 - **Thikana** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=thikana&format=.m3u
-- **PTV Sports** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=ptv_sports&format=.m3u8
 - **TSN 1** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8
 - **TSN 2** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8
 - **TSN 3** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_3&format=.m3u8
