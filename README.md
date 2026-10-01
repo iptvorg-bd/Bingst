@@ -1,6 +1,6 @@
-# 📺 Saeid Rahman IPTV Playlist
+# 📺 iptvorg-bd IPTV Playlist
 
-A carefully curated, enriched, and automatically maintained BDIX IPTV playlist created by **Saeid Rahman**.
+A carefully curated, enriched, and automatically maintained BDIX IPTV playlist created by **MD ANAMUL HOQUE**.
 
 This project brings together publicly available IPTV stream URLs from multiple sources and transforms them into a cleaner, better organized, and more reliable playlist. Rather than simply collecting links, the playlist is continuously refined through channel-name normalization, intelligent categorization, logo integration, duplicate removal, metadata cleanup, and the addition of multiple backup streams whenever suitable alternatives are available.
 
