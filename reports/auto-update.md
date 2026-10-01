@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-09-30T08:51:13.966697+00:00**
+Generated: **2026-10-01T09:14:52.722781+00:00**
 
 ## Summary
 
-- Final playlist entries: **772**
-- New primary channels: **4**
-- New backup streams: **0**
+- Final playlist entries: **773**
+- New primary channels: **0**
+- New backup streams: **1**
 - Rejected new candidates: **1152**
 - Duplicate URLs removed: **0**
 
@@ -22,18 +22,15 @@ Generated: **2026-09-30T08:51:13.966697+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 149
+- **Sports**: 150
 
 ## New primary channels
 
-- **Tapmad 1** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
-- **Tapmad 5** — `Sports` — https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
-- **Tapmad 6** — `Sports` — https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8
-- **Tapmad 7** — `Sports` — https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8
+- None
 
 ## New backup streams
 
-- None
+- **beIN Sports [Backup 2]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8
 
 ## Blocked stream imports
 
