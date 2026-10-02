@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-10-01T09:14:52.722781+00:00**
+Generated: **2026-10-02T08:48:24.105584+00:00**
 
 ## Summary
 
 - Final playlist entries: **773**
 - New primary channels: **0**
-- New backup streams: **1**
+- New backup streams: **0**
 - Rejected new candidates: **1152**
 - Duplicate URLs removed: **0**
 
@@ -30,7 +30,7 @@ Generated: **2026-10-01T09:14:52.722781+00:00**
 
 ## New backup streams
 
-- **beIN Sports [Backup 2]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8
+- None
 
 ## Blocked stream imports
 
