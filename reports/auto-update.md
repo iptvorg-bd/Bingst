@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-04T08:38:37.644991+00:00**
+Generated: **2026-10-05T09:26:04.266485+00:00**
 
 ## Summary
 
-- Final playlist entries: **773**
+- Final playlist entries: **774**
 - New primary channels: **0**
-- New backup streams: **0**
-- Rejected new candidates: **1152**
+- New backup streams: **1**
+- Rejected new candidates: **1151**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -22,7 +22,7 @@ Generated: **2026-10-04T08:38:37.644991+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 150
+- **Sports**: 151
 
 ## New primary channels
 
@@ -30,7 +30,7 @@ Generated: **2026-10-04T08:38:37.644991+00:00**
 
 ## New backup streams
 
-- None
+- **Bleav Football [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8
 
 ## Blocked stream imports
 
@@ -722,7 +722,6 @@ Generated: **2026-10-04T08:38:37.644991+00:00**
 - **BIJOY TV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/bijoy-tv/index.m3u8
 - **BOISHAKHI TV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/boishakhi-tv/index.m3u8
 - **ATN BANGLA** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/atn-bangla/index.m3u8
-- **Mohona TV** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mohona_tv&format=.m3u8
 - **Thikana** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=thikana&format=.m3u
 - **TSN 1** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8
 - **TSN 2** — proxy/encoded wrapper path — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8
