@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-10-05T09:26:04.266485+00:00**
+Generated: **2026-10-06T09:12:34.215048+00:00**
 
 ## Summary
 
 - Final playlist entries: **774**
 - New primary channels: **0**
-- New backup streams: **1**
+- New backup streams: **0**
 - Rejected new candidates: **1151**
 - Duplicate URLs removed: **0**
 
@@ -30,7 +30,7 @@ Generated: **2026-10-05T09:26:04.266485+00:00**
 
 ## New backup streams
 
-- **Bleav Football [Backup 1]** — `Sports` — https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8
+- None
 
 ## Blocked stream imports
 
