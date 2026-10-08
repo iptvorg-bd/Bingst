@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-07T09:02:42.183656+00:00**
+Generated: **2026-10-08T09:18:07.141874+00:00**
 
 ## Summary
 
 - Final playlist entries: **774**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1151**
+- Rejected new candidates: **1146**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -751,12 +751,7 @@ Generated: **2026-10-07T09:02:42.183656+00:00**
 - **& Picture** — source group `Indian Hindi` — https://stream.ottplus.bd/live/and_picture_hd_abr/index.m3u8
 - **Sony Television** — source group `Indian Hindi` — https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
 - **Sony Max HD** — source group `Indian Hindi` — https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8
-- **B4U Movie** — source group `Indian Hindi` — http://103.175.73.12:8080/live/43/43_0.m3u8
 - **Shemarooenterta** — source group `Indian Hindi` — http://103.175.73.12:8080/live/189/189_0.m3u8
-- **Bhojopuri Cinema** — source group `Indian Hindi` — http://103.175.73.12:8080/live/646/646_0.m3u8
-- **Gold Mines** — source group `Indian Hindi` — http://103.175.73.12:8080/live/53/53_0.m3u8
-- **Gold Mines Movie** — source group `Indian Hindi` — http://103.175.73.12:8080/live/51/51_0.m3u8
-- **Gold Mines Bollywood** — source group `Indian Hindi` — http://103.175.73.12:8080/live/52/52_0.m3u8
 - **Calcutta News** — source group `Indian News` — https://akdnetwork.co.in/live/cnnew/index.m3u8
 - **R Plus News** — source group `Indian News` — https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
 - **Zee 24 Ghanta** — source group `Indian News` — https://d2dsoyvkr33m05.cloudfront.net/index_5.m3u8
