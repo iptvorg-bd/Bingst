@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-10-09T09:25:25.777720+00:00**
+Generated: **2026-10-10T08:47:07.977338+00:00**
 
 ## Summary
 
-- Final playlist entries: **774**
+- Final playlist entries: **775**
 - New primary channels: **0**
-- New backup streams: **0**
+- New backup streams: **1**
 - Rejected new candidates: **1146**
 - Duplicate URLs removed: **0**
 
@@ -22,7 +22,7 @@ Generated: **2026-10-09T09:25:25.777720+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 151
+- **Sports**: 152
 
 ## New primary channels
 
@@ -30,7 +30,7 @@ Generated: **2026-10-09T09:25:25.777720+00:00**
 
 ## New backup streams
 
-- None
+- **Willow Sports [Backup 1]** — `Sports` — https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7058af1b60fb3bcfd7f687bf5b7866aa
 
 ## Blocked stream imports
 
