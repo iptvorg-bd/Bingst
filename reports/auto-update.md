@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-13T09:38:21.253501+00:00**
+Generated: **2026-10-14T07:53:24.369813+00:00**
 
 ## Summary
 
-- Final playlist entries: **775**
-- New primary channels: **0**
+- Final playlist entries: **776**
+- New primary channels: **1**
 - New backup streams: **0**
-- Rejected new candidates: **1146**
+- Rejected new candidates: **1145**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -22,11 +22,11 @@ Generated: **2026-10-13T09:38:21.253501+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 152
+- **Sports**: 153
 
 ## New primary channels
 
-- None
+- **Live Cricket** — `Sports` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
 
 ## New backup streams
 
@@ -735,7 +735,6 @@ Generated: **2026-10-13T09:38:21.253501+00:00**
 
 ## Rejected candidates
 
-- **Live Cricket** — source group `` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
 - **Star News** — source group `News` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/tracks-v1a1/mono.m3u8
 - **G TV** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 - **NRB HD** — source group `Bangla` — https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
