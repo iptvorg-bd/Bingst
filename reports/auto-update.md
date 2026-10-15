@@ -1,11 +1,11 @@
 # IPTV Auto Update
 
-Generated: **2026-10-14T07:53:24.369813+00:00**
+Generated: **2026-10-15T07:38:25.943622+00:00**
 
 ## Summary
 
 - Final playlist entries: **776**
-- New primary channels: **1**
+- New primary channels: **0**
 - New backup streams: **0**
 - Rejected new candidates: **1145**
 - Duplicate URLs removed: **0**
@@ -26,7 +26,7 @@ Generated: **2026-10-14T07:53:24.369813+00:00**
 
 ## New primary channels
 
-- **Live Cricket** — `Sports` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
+- None
 
 ## New backup streams
 
