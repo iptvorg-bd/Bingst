@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-10-18T07:21:00.774529+00:00**
+Generated: **2026-10-19T07:59:35.012113+00:00**
 
 ## Summary
 
-- Final playlist entries: **776**
+- Final playlist entries: **777**
 - New primary channels: **0**
-- New backup streams: **0**
+- New backup streams: **1**
 - Rejected new candidates: **1145**
 - Duplicate URLs removed: **0**
 
@@ -22,7 +22,7 @@ Generated: **2026-10-18T07:21:00.774529+00:00**
 - **Documentary & Wildlife**: 40
 - **Kids**: 51
 - **Religious**: 39
-- **Sports**: 153
+- **Sports**: 154
 
 ## New primary channels
 
@@ -30,7 +30,7 @@ Generated: **2026-10-18T07:21:00.774529+00:00**
 
 ## New backup streams
 
-- None
+- **Willow Sports 2 [Backup 1]** — `Sports` — https://tvsen7.aynaott.com/Sports1/index.m3u8
 
 ## Blocked stream imports
 
@@ -715,7 +715,6 @@ Generated: **2026-10-18T07:21:00.774529+00:00**
 - **Ekattor HD** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/ekattor-tv/index.m3u8
 - **ATN News** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/atn-news/index.m3u8
 - **Independent TV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/independent-tv/index.m3u8
-- **Channel 9 HD** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/channel-9/index.m3u8
 - **Channel I HD** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
 - **BTV Shangshad** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8
 - **DURONTO TV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/duronto-tv/index.m3u8
@@ -735,6 +734,7 @@ Generated: **2026-10-18T07:21:00.774529+00:00**
 
 ## Rejected candidates
 
+- **Channel 9 HD** — source group `Entertainment` — https://nkafmbewiff.gpcdn.net/tile_7/master.m3u8
 - **Star News** — source group `News` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/tracks-v1a1/mono.m3u8
 - **G TV** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 - **NRB HD** — source group `Bangla` — https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
