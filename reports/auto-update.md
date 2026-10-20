@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-10-19T07:59:35.012113+00:00**
+Generated: **2026-10-20T07:49:50.275408+00:00**
 
 ## Summary
 
 - Final playlist entries: **777**
 - New primary channels: **0**
-- New backup streams: **1**
+- New backup streams: **0**
 - Rejected new candidates: **1145**
 - Duplicate URLs removed: **0**
 
@@ -30,7 +30,7 @@ Generated: **2026-10-19T07:59:35.012113+00:00**
 
 ## New backup streams
 
-- **Willow Sports 2 [Backup 1]** — `Sports` — https://tvsen7.aynaott.com/Sports1/index.m3u8
+- None
 
 ## Blocked stream imports
 
