@@ -40,7 +40,6 @@ jobs:
           SOURCE_URLS = [
               'https://raw.githubusercontent.com/ahmedstore75/Bdixplaylist/main/playlist.m3u',
               'https://raw.githubusercontent.com/ahmedstore75/Bdixplaylist/main/playlist.m3u',
-              'https://raw.githubusercontent.com/iptvorg-bd/Anya/refs/heads/main/ayna_ott.m3u',
           ]
           GROUPS = [
               'Bangladesh', 'Indian Bangla', 'Indian Movies', 'Indian Music',
