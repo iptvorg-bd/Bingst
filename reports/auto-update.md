@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-20T19:15:18.394869+00:00**
+Generated: **2026-10-21T05:15:39.906904+00:00**
 
 ## Summary
 
 - Final playlist entries: **800**
-- New primary channels: **8**
-- New backup streams: **15**
-- Rejected new candidates: **1402**
+- New primary channels: **0**
+- New backup streams: **0**
+- Rejected new candidates: **1350**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -26,32 +26,11 @@ Generated: **2026-10-20T19:15:18.394869+00:00**
 
 ## New primary channels
 
-- **Willow TV** — `Sports` — https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8
-- **Dubai Sports 1** — `Sports` — https://tvsen6.aynaott.com/dubaisports1/index.m3u8
-- **FIFA+** — `Sports` — https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
-- **Sports Fishing TV** — `Sports` — https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
-- **Talk Sport** — `Sports` — https://tvsen6.aynaott.com/talkSPORT/index.m3u8
-- **TNT Sport 1** — `Sports` — https://tvsen6.aynaott.com/TntSports1HD/index.m3u8
-- **And Pictures HD** — `Indian Entertainment` — https://tvsen6.aynaott.com/andpictureshd/index.m3u8
-- **Disney Channel** — `Kids` — https://tvsen7.aynaott.com/disney/index.m3u8
+- None
 
 ## New backup streams
 
-- **BTV News [Backup 2]** — `Bangladesh` — https://tvsen6.aynaott.com/tV8mB2zP7rX4kL1w/index.m3u8
-- **Channel 24 [Backup 3]** — `Bangladesh` — https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8
-- **Deepto TV [Backup 1]** — `Bangladesh` — https://tvsen5.aynaott.com/tK2BNdfsdfsdf/index.m3u8
-- **Gazi TV [Backup 3]** — `Bangladesh` — https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8
-- **Maasranga TV [Backup 3]** — `Bangladesh` — https://tvsen6.aynaott.com/maasrangatv/index.m3u8
-- **Channel 9 [Backup 2]** — `Bangladesh` — https://tvsen6.aynaott.com/kajlsd57jnzxyo/index.m3u8
-- **Thikana [Backup 1]** — `Bangladesh` — https://5dd3981940faa.streamlock.net:443/thikanatv/thikanatv/playlist.m3u8
-- **Cricket Gold [Backup 1]** — `Sports` — https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8
-- **TSN 1 [Backup 1]** — `Sports` — https://tvsen7.aynaott.com/tsn1/index.m3u8
-- **TSN 2 [Backup 1]** — `Sports` — https://tvsen7.aynaott.com/tsn2/index.m3u8
-- **TSN 3 [Backup 1]** — `Sports` — https://tvsen7.aynaott.com/tsn3/index.m3u8
-- **Goldmines [Backup 1]** — `Indian Movies` — https://tvsen3.aynaott.com/VamXuQH8/index.m3u8
-- **Goldmines Bollywood [Backup 2]** — `Indian Movies` — https://tvsen6.aynaott.com/55xNrLdf/index.m3u8
-- **Goldmines Movies [Backup 1]** — `Indian Movies` — https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8
-- **Dhoom Music Bangla [Backup 1]** — `Indian Bangla` — https://tvsen6.aynaott.com/dhoom/index.m3u8
+- None
 
 ## Blocked stream imports
 
@@ -1408,58 +1387,7 @@ Generated: **2026-10-20T19:15:18.394869+00:00**
 
 ## Rejected candidates
 
-- **BTV World** — source group `Bangla` — https://tvsen6.aynaott.com/AQLYTPfXtjm5x7zj7AsM/index.m3u8
-- **Sportv** — source group `Bangla` — https://tvsen7.aynaott.com/shagor-backup/index.m3u8
-- **USA TV** — source group `Bangla` — https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8
-- **Sky News** — source group `Sports` — https://tvsen5.aynaott.com/skynews/index.m3u8
-- **Sky News Weather** — source group `Sports` — https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
-- **kolkata TV** — source group `Kolkata` — https://tvsen6.aynaott.com/kolkatatv/index.m3u8
-- **R Plus** — source group `Kolkata` — https://tvsen6.aynaott.com/Xehy3ZqZ/index.m3u8
-- **TV9 Bangla** — source group `Kolkata` — https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
-- **Zee 24 Ghanta** — source group `Kolkata` — https://tvsen6.aynaott.com/DpPnXP9r/index.m3u8
-- **B4U Hitz** — source group `Indian` — https://tvsen6.aynaott.com/B4UHitz/index.m3u8
-- **TV9 Bharatvarsh** — source group `Indian` — https://tvsen3.aynaott.com/v9NqPxRd/index.m3u8
-- **ABC News** — source group `News` — https://tvsen6.aynaott.com/ABCxzdsdNews/index.m3u8
-- **Aljazeera News** — source group `News` — https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-- **ANB News** — source group `News` — https://tvsen6.aynaott.com/H5aeGVSjindex.m3u8
-- **BBC News** — source group `News` — https://tvsen1.aynaott.com/shn6jGTk/index.m3u8
-- **Bharat Samachar** — source group `News` — https://tvsen3.aynaott.com/m94BZDYb/index.m3u8
-- **CNN** — source group `News` — https://tvsen6.aynaott.com/cnn/index.m3u8
-- **DW News** — source group `News` — https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8
-- **Fox business** — source group `News` — https://tvsen6.aynaott.com/foxbusiness/index.m3u8
-- **Fox News** — source group `News` — https://tvsen6.aynaott.com/foxnews/index.m3u8
-- **Hindi Khabar** — source group `News` — https://tvsen7.aynaott.com/HindiKhabar/index.m3u8
-- **News 1 India** — source group `News` — https://tvsen6.aynaott.com/TaVfw58T/index.m3u8
-- **News India 24x7** — source group `News` — https://tvsen3.aynaott.com/vG7Wpj7e/index.m3u8
-- **News Time Bangla** — source group `News` — https://tvsen6.aynaott.com/xjkX3euD/index.m3u8
-- **Republic Bangla** — source group `News` — https://tvsen5.aynaott.com/qRHda6ax/index.m3u8
-- **Republic TV Bharat** — source group `News` — https://tvsen6.aynaott.com/faGd3tuq/index.m3u8
-- **Sadhna Prime News** — source group `News` — https://tvsen3.aynaott.com/P2hjvFHV/index.m3u8
-- **Star News** — source group `News` — https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
-- **Khushboo** — source group `Movies` — https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8
-- **Manoranjan Movies** — source group `Movies` — https://tvsen6.aynaott.com/vhu6qz5N/index.m3u8
-- **Peace TV Bangla HD** — source group `Islamic` — https://tvsen3.aynaott.com/RxGdpyu5/index.m3u8
-- **ABC 7 Bay** — source group `Entertainment` — https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
-- **ABN** — source group `Entertainment` — https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
-- **Accu Weather** — source group `Entertainment` — https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
-- **Bloomberg TV** — source group `Entertainment` — https://tvsen6.aynaott.com/bloombergtv/index.m3u8
-- **CBS TV** — source group `Entertainment` — https://tvsen3.aynaott.com/34fJSjZP/index.m3u8
-- **CNBC TV** — source group `Entertainment` — https://tvsen6.aynaott.com/cnbc/index.m3u8
-- **CP 24** — source group `Entertainment` — https://tvsen6.aynaott.com/cp24/index.m3u8
-- **Dubai TV** — source group `Entertainment` — https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8
-- **Fox 5** — source group `Entertainment` — https://tvsen6.aynaott.com/fox5/index.m3u8
-- **Fox Weather** — source group `Entertainment` — https://247wlive.foxweather.com/stream/index.m3u8
-- **FX TV** — source group `Entertainment` — https://tvsen3.aynaott.com/jTqkTE8W/index.m3u8
-- **Goal TV** — source group `Entertainment` — https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
-- **India Today** — source group `Entertainment` — https://feeds.intoday.in/hltapps/api/master.m3u8
-- **Iran Press** — source group `Entertainment` — https://live.presstv.ir/hls/presstv_5_482/index.m3u8
-- **LIFE TIME** — source group `Entertainment` — https://tvsen7.aynaott.com/lifetime/index.m3u8
-- **Rupshi Bangla** — source group `Entertainment` — https://tvsen6.aynaott.com/a4L7Tcqv/index.m3u8
-- **TIME TV USA** — source group `Entertainment` — https://tvsen7.aynaott.com/timetv/index.m3u8
-- **TRT World** — source group `Entertainment` — https://tvsen7.aynaott.com/TRTWorldHD/index.m3u8
-- **VTV USA** — source group `Entertainment` — https://tvsen7.aynaott.com/vtvusa/index.m3u8
-- **Weather SPY** — source group `Entertainment` — https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
-- **Wion** — source group `Entertainment` — https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+- None
 
 ## Policy
 
