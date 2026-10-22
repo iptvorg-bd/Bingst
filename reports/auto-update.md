@@ -1,6 +1,6 @@
 # IPTV Auto Update
 
-Generated: **2026-10-21T07:53:40.594811+00:00**
+Generated: **2026-10-22T07:49:57.945852+00:00**
 
 ## Summary
 
@@ -79,7 +79,7 @@ Generated: **2026-10-21T07:53:40.594811+00:00**
 - **Ekhon TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ekhon-tv-1/index.m3u8
 - **Green TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/green-tv-1/index.m3u8
 - **Jonmo Bhumi TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/jonmo-bhumi-tv-1/index.m3u8
-- **Mohona TV HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/mohona-tv-hd-1/index.m3u8
+- **Nagorik TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/nagorik-tv-1/index.m3u8
 - **ME TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-1/index.m3u8
 - **Thikana** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/thikana-1/index.m3u8
 - **BTV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/btv-1/index.m3u8
@@ -121,7 +121,7 @@ Generated: **2026-10-21T07:53:40.594811+00:00**
 - **Asian** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/asian-1/index.m3u8
 - **Movie Bangla** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/movie-bangla-2/index.m3u8
 - **Me Tv** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-2/index.m3u8
-- **SRK** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/srk-1/index.m3u8
+- **SRK TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/srk-tv-1/index.m3u8
 - **Makkah Live** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/makkah-live-1/index.m3u8
 - **Medina Live** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/medina-live-1/index.m3u8
 - **Islamic TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/islamic-tv-1/index.m3u8
@@ -754,7 +754,7 @@ Generated: **2026-10-21T07:53:40.594811+00:00**
 - **Ekhon TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ekhon-tv-1/index.m3u8
 - **Green TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/green-tv-1/index.m3u8
 - **Jonmo Bhumi TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/jonmo-bhumi-tv-1/index.m3u8
-- **Mohona TV HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/mohona-tv-hd-1/index.m3u8
+- **Nagorik TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/nagorik-tv-1/index.m3u8
 - **ME TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-1/index.m3u8
 - **Thikana** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/thikana-1/index.m3u8
 - **BTV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/btv-1/index.m3u8
@@ -796,7 +796,7 @@ Generated: **2026-10-21T07:53:40.594811+00:00**
 - **Asian** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/asian-1/index.m3u8
 - **Movie Bangla** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/movie-bangla-2/index.m3u8
 - **Me Tv** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-2/index.m3u8
-- **SRK** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/srk-1/index.m3u8
+- **SRK TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/srk-tv-1/index.m3u8
 - **Makkah Live** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/makkah-live-1/index.m3u8
 - **Medina Live** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/medina-live-1/index.m3u8
 - **Islamic TV** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/islamic-tv-1/index.m3u8
