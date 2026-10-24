@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-23T07:48:55.884111+00:00**
+Generated: **2026-10-24T07:30:30.766868+00:00**
 
 ## Summary
 
 - Final playlist entries: **800**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1350**
+- Rejected new candidates: **1352**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -213,6 +213,7 @@ Generated: **2026-10-23T07:48:55.884111+00:00**
 - **Sony Ten 5** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-5-1/index.m3u8
 - **Bein Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-1/index.m3u8
+- **Bein Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-2-1/index.m3u8
 - **Animal Planet HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/animal-planet-hd-1/index.m3u8
 - **Discovery HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/discovery-hd-1/index.m3u8
 - **Discover Pakistan** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/discover-pakistan-1/index.m3u8
@@ -888,6 +889,7 @@ Generated: **2026-10-23T07:48:55.884111+00:00**
 - **Sony Ten 5** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-5-1/index.m3u8
 - **Bein Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-1/index.m3u8
+- **Bein Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-2-1/index.m3u8
 - **Animal Planet HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/animal-planet-hd-1/index.m3u8
 - **Discovery HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/discovery-hd-1/index.m3u8
 - **Discover Pakistan** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/discover-pakistan-1/index.m3u8
