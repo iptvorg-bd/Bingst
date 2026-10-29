@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-28T08:50:14.592593+00:00**
+Generated: **2026-10-29T08:44:31.453367+00:00**
 
 ## Summary
 
 - Final playlist entries: **800**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1352**
+- Rejected new candidates: **1354**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -204,8 +204,10 @@ Generated: **2026-10-28T08:50:14.592593+00:00**
 - **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-1/index.m3u8
 - **Willow Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-1/index.m3u8
 - **Willow Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-2-1/index.m3u8
+- **Willow TV 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-tv-3-1/index.m3u8
 - **Star Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-1-1/index.m3u8
 - **Star Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-2-1/index.m3u8
+- **Star Sports 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-3-1/index.m3u8
 - **Star Sports SL 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-1-1/index.m3u8
 - **Star Sports SL 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-2-1/index.m3u8
 - **Sony Ten 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-1-1/index.m3u8
@@ -217,7 +219,6 @@ Generated: **2026-10-28T08:50:14.592593+00:00**
 - **TSN 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-1-1/index.m3u8
 - **TSN 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-2-1/index.m3u8
 - **TSN 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-3-1/index.m3u8
-- **Willow TV 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-tv-2-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-2/index.m3u8
 - **Bleav Football** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bleav-football-1/index.m3u8
 - **Espn** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/espn-1/index.m3u8
@@ -880,8 +881,10 @@ Generated: **2026-10-28T08:50:14.592593+00:00**
 - **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-1/index.m3u8
 - **Willow Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-1/index.m3u8
 - **Willow Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-2-1/index.m3u8
+- **Willow TV 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-tv-3-1/index.m3u8
 - **Star Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-1-1/index.m3u8
 - **Star Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-2-1/index.m3u8
+- **Star Sports 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-3-1/index.m3u8
 - **Star Sports SL 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-1-1/index.m3u8
 - **Star Sports SL 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-2-1/index.m3u8
 - **Sony Ten 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-1-1/index.m3u8
@@ -893,7 +896,6 @@ Generated: **2026-10-28T08:50:14.592593+00:00**
 - **TSN 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-1-1/index.m3u8
 - **TSN 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-2-1/index.m3u8
 - **TSN 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tsn-3-1/index.m3u8
-- **Willow TV 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-tv-2-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-2/index.m3u8
 - **Bleav Football** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bleav-football-1/index.m3u8
 - **Espn** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/espn-1/index.m3u8
