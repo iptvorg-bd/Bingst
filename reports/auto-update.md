@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-31T08:38:45.341296+00:00**
+Generated: **2026-11-01T09:29:43.377654+00:00**
 
 ## Summary
 
 - Final playlist entries: **800**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1354**
+- Rejected new candidates: **1356**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -189,6 +189,7 @@ Generated: **2026-10-31T08:38:45.341296+00:00**
 - **yrf Music** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/yrf-music-1/index.m3u8
 - **Hindi Hits HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/hindi-hits-hd-1/index.m3u8
 - **Sangeet Bhojpuri** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bhojpuri-1/index.m3u8
+- **Sangeet Bhojpuri** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bhojpuri-2/index.m3u8
 - **T Sports HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/t-sports-hd-1/index.m3u8
 - **PTV Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ptv-sports-1/index.m3u8
 - **Tapmad 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-1-1/index.m3u8
@@ -866,6 +867,7 @@ Generated: **2026-10-31T08:38:45.341296+00:00**
 - **yrf Music** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/yrf-music-1/index.m3u8
 - **Hindi Hits HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/hindi-hits-hd-1/index.m3u8
 - **Sangeet Bhojpuri** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bhojpuri-1/index.m3u8
+- **Sangeet Bhojpuri** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bhojpuri-2/index.m3u8
 - **T Sports HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/t-sports-hd-1/index.m3u8
 - **PTV Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ptv-sports-1/index.m3u8
 - **Tapmad 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-1-1/index.m3u8
