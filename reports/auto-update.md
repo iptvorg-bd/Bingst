@@ -1,6 +1,6 @@
 # IPTV Auto Update
 
-Generated: **2026-11-19T10:36:01.381716+00:00**
+Generated: **2026-11-20T10:17:25.684485+00:00**
 
 ## Summary
 
