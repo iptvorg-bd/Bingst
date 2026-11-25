@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-11-24T12:47:23.919033+00:00**
+Generated: **2026-11-25T11:33:14.046035+00:00**
 
 ## Summary
 
 - Final playlist entries: **800**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1356**
+- Rejected new candidates: **1366**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -214,6 +214,11 @@ Generated: **2026-11-24T12:47:23.919033+00:00**
 - **Sony Ten 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-1-1/index.m3u8
 - **Sony Ten 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-2-1/index.m3u8
 - **Sony Ten 5** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-5-1/index.m3u8
+- **FOX SPORTS CRICKET** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/fox-sports-cricket-1/index.m3u8
+- **SKY SPORTS CRICKET** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sky-sports-cricket-1/index.m3u8
+- **TNT SPORTS 1 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tnt-sports-1-hd-1/index.m3u8
+- **TNT SPORTS 2 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tnt-sports-2-hd-1/index.m3u8
+- **TNT SPORTS 3 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tnt-sports-3-hd-1/index.m3u8
 - **Bein Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-1/index.m3u8
 - **Bein Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-2-1/index.m3u8
@@ -892,6 +897,11 @@ Generated: **2026-11-24T12:47:23.919033+00:00**
 - **Sony Ten 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-1-1/index.m3u8
 - **Sony Ten 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-2-1/index.m3u8
 - **Sony Ten 5** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-5-1/index.m3u8
+- **FOX SPORTS CRICKET** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/fox-sports-cricket-1/index.m3u8
+- **SKY SPORTS CRICKET** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sky-sports-cricket-1/index.m3u8
+- **TNT SPORTS 1 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tnt-sports-1-hd-1/index.m3u8
+- **TNT SPORTS 2 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tnt-sports-2-hd-1/index.m3u8
+- **TNT SPORTS 3 HD** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tnt-sports-3-hd-1/index.m3u8
 - **Bein Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1/index.m3u8
 - **Bein Sports 1** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-1/index.m3u8
 - **Bein Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-2-1/index.m3u8
