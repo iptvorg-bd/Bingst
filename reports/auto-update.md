@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-11-27T11:10:57.342964+00:00**
+Generated: **2026-11-28T10:43:41.738022+00:00**
 
 ## Summary
 
 - Final playlist entries: **800**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1366**
+- Rejected new candidates: **1368**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -203,6 +203,7 @@ Generated: **2026-11-27T11:10:57.342964+00:00**
 - **Tapmad 9** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-9-1/index.m3u8
 - **Tapmad 10** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-10-1/index.m3u8
 - **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-1/index.m3u8
+- **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-2/index.m3u8
 - **Willow Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-1/index.m3u8
 - **Willow Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-2-1/index.m3u8
 - **Willow TV 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-tv-3-1/index.m3u8
@@ -886,6 +887,7 @@ Generated: **2026-11-27T11:10:57.342964+00:00**
 - **Tapmad 9** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-9-1/index.m3u8
 - **Tapmad 10** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/tapmad-10-1/index.m3u8
 - **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-1/index.m3u8
+- **Ten Cricket** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-2/index.m3u8
 - **Willow Sports** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-1/index.m3u8
 - **Willow Sports 2** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-2-1/index.m3u8
 - **Willow TV 3** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/willow-tv-3-1/index.m3u8
